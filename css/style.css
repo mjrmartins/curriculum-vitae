@@ -1,0 +1,124 @@
+@font-face {
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-family: "Roboto-medium";
+}
+
+@font-face {
+    src: url("../fonts/Roboto-Bold.ttf");
+    font-family: "Roboto-bold";
+}
+
+@font-face {
+    src: url("../fonts/Roboto-Thin.ttf");
+    font-family: "Roboto-Thin";
+}
+
+@font-face {
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-family: "Roboto-regular";
+}
+
+@font-face {
+    src: url("../fonts/OpenSans_Condensed-Bold.ttf");
+    font-family: "OpenSans-bold";
+}
+
+
+@font-face {
+    src: url("../fonts/OpenSans_Condensed-Regular.ttf");
+    font-family: "OpenSans-regular";
+}
+
+body {
+    max-width: 1200px;
+    min-width: 360px;
+}
+
+.t1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: "Roboto-bold";
+}
+
+.t3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Roboto-regular";
+}
+
+.t4 {
+    font-family: "OpenSans-bold";
+    font-size: 28px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.t5 {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-family: "OpenSans-bold";
+    font-size: 20px;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 25px;
+    width: fit-content;
+    padding: 3px 15px;
+}
+
+.t6 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "OpenSans-bold";
+}
+
+.texto {
+    font-family: "OpenSans-regular";
+    text-align: justify;
+    font-size: 20px;
+}
+
+header,
+main,
+footer {
+    border: 1px solid rgb(0, 40, 80);
+}
+
+.topo {
+    background-color: rgb(0, 40, 80);
+}
+
+.lateral {
+    border-right: 3px solid rgb(0, 40, 80);
+}
+
+.personal {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+.line {
+    height: 3px !important;
+    background-color: white;
+    border: 0px solid white;
+}
+
+.circle {
+    width: 1em;
+    height: 1em;
+}
+
+.icon {
+    height: 4em;
+    margin: 2%;
+}
+
+.progress-bar {
+    font-size: 16px;
+}
+
+.rodape {
+    background-color: rgb(0, 40, 80);
+    color: white;
+    font-family: "OpenSans-bold";
+    font-size: 20px;
+}
