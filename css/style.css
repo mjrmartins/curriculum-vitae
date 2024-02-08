@@ -122,3 +122,43 @@ footer {
     font-family: "OpenSans-bold";
     font-size: 20px;
 }
+
+/* MEDIA QUERY */
+
+@media all and (max-width: 768px) {
+    .t1 {
+        font-size: 40px;
+    }
+
+    .t3 {
+        font-size: 20px;
+    }
+
+    .t4 {
+        font-size: 18px;
+    }
+
+    .t5 {
+        font-size: 16px;
+    }
+
+    .t6 {
+        font-size: 16px;
+    }
+
+    .lateral {
+        border-right: none;
+    }
+
+    .icon {
+        height: 2.5em;
+    }
+
+    .rodape {
+        font-size: 16px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+}
